@@ -4,9 +4,9 @@ import {
   Kanban,
   Wallet,
   GraduationCap,
-  NotebookPen,
-  Clapperboard,
-  Plane,
+  NotePencil,
+  FilmSlate,
+  Airplane,
   GearSix,
   type Icon,
 } from "@phosphor-icons/react/dist/ssr";
@@ -24,9 +24,9 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "Workspace", href: "/workspace", icon: Kanban },
   { label: "Finance", href: "/finance", icon: Wallet },
   { label: "Study Hub", href: "/study-hub", icon: GraduationCap },
-  { label: "Journal", href: "/journal", icon: NotebookPen },
-  { label: "Content", href: "/content", icon: Clapperboard },
-  { label: "Travel", href: "/travel", icon: Plane },
+  { label: "Journal", href: "/journal", icon: NotePencil },
+  { label: "Content", href: "/content", icon: FilmSlate },
+  { label: "Travel", href: "/travel", icon: Airplane },
 ];
 
 export const SETTINGS_ITEM: NavItem = {
