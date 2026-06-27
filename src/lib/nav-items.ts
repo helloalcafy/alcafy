@@ -8,13 +8,13 @@ import {
   FilmSlate,
   Airplane,
   GearSix,
-  type Icon,
 } from "@phosphor-icons/react/dist/ssr";
+import type { ComponentType } from "react";
 
 export type NavItem = {
   label: string;
   href: string;
-  icon: Icon;
+  icon: ComponentType<{ size?: number; weight?: string; className?: string }>;
 };
 
 // Bold-weight line icons throughout (Phosphor "Bold"), per design spec.
