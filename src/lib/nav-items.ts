@@ -9,15 +9,13 @@ import {
   Airplane,
   GearSix,
 } from "@phosphor-icons/react/dist/ssr";
-import type { ComponentType } from "react";
 
 export type NavItem = {
   label: string;
   href: string;
-  icon: ComponentType<{ size?: number; weight?: string; className?: string }>;
+  icon: typeof House;
 };
 
-// Bold-weight line icons throughout (Phosphor "Bold"), per design spec.
 export const NAV_ITEMS: NavItem[] = [
   { label: "Home", href: "/home", icon: House },
   { label: "Goals", href: "/goals", icon: Target },
