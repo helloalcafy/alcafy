@@ -10,14 +10,14 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
       </div>
 
       <div className="relative w-full max-w-sm">
-        {/* Mascot peeking over the top-left edge of the card */}
+        {/* Mascot centered, peeking over the top edge of the card */}
         <img
-        src="/brand/bear-auth.png"
-        alt=""
-        aria-hidden
-        className="absolute -top-16 left-2 z-10 h-24 w-24 select-none"
+          src="/brand/bear-auth.png"
+          alt=""
+          aria-hidden
+          className="absolute left-1/2 top-0 z-10 h-28 w-28 -translate-x-1/2 -translate-y-[75%] select-none sm:h-32 sm:w-32"
         />
-        <div className="glass-card w-full p-7 pt-8">{children}</div>
+        <div className="glass-card w-full p-7 pt-10">{children}</div>
       </div>
     </div>
   );
