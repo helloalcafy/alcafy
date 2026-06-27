@@ -15,7 +15,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
           src="/brand/bear-auth.png"
           alt=""
           aria-hidden
-          className="absolute -top-16 left-2 z-10 h-24 w-24 select-none"
+          className="absolute left-1/2 top-0 z-10 h-28 w-28 -translate-x-1/2 -translate-y-[78%] select-none"
         />
         <div className="glass-card w-full p-7 pt-8">{children}</div>
       </div>
